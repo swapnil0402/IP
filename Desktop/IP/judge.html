@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JudicialFlow Manager - Judge</title>
+    <link rel="stylesheet" href="judge.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <h1>JudicialFlow Manager</h1>
+    </header>
+
+    <div class="judge-content">
+        <h2>Welcome, Judge!</h2>
+        <div class="judge-functionalities">
+            <ul id="judgeFunctionalityList">
+                <li><button onclick="viewAssignedCases()">View assigned cases</button></li>
+                <li><button onclick="accessCaseDetails()">Access case details and documents</button></li>
+                <li><button onclick="prioritizeCases()">Prioritize cases</button></li>
+                <li><button onclick="communicate()">Communicate with involved parties</button></li>
+                <li><button onclick="conductVideoConference()">Conduct video conferencing</button></li>
+                <!-- Add more functionalities as needed -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="judge\judge.js"></script>
+</body>
+</html>

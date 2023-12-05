@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f4; /* Light background color */
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 1em;
+    text-align: center;
+}
+
+.lawyer-client-content {
+    text-align: center;
+    margin-top: 4em; /* Adjust as needed */
+}
+
+.lawyer-client-content h2 {
+    font-size: 2em;
+    color: #333; /* Dark text color */
+}
+
+.lawyer-client-functionalities {
+    margin-top: 2em;
+}
+
+.lawyer-client-functionalities h3 {
+    font-size: 1.5em;
+    color: #333; /* Dark text color */
+}
+
+.lawyer-client-functionalities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lawyer-client-functionalities li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    color: #555; /* Medium text color */
+}

@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: #f4f4f4; /* Light background color */
+}
+
+.login-text {
+    font-size: 1.5em;
+    color: #333; /* Dark text color */
+    margin-bottom: 1em;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.login-button {
+    padding: 1em 2em;
+    margin: 1em;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #b19cd9; /* Pastel purple */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.login-button:hover {
+    background-color: #9980b3; /* Darker purple on hover */
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b19cd9; 
+    color: #333; /* Add text color if needed */
+    padding: 1em;
+    text-align: center;
+}
